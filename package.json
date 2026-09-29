@@ -1,0 +1,21 @@
+{
+  "name": "mini-movilador-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@yume-chan/adb": "latest",
+    "@yume-chan/adb-daemon-webusb": "latest",
+    "@yume-chan/adb-scrcpy": "latest",
+    "@yume-chan/scrcpy": "latest",
+    "@yume-chan/scrcpy-decoder-webcodecs": "latest"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
